@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeAliases>
+        <typeAlias alias="Student" type="second.entity.Student"/>
+        <typeAlias alias="Score" type="second.entity.Score"/>
+        <typeAlias alias="Clazz" type="second.entity.Clazz"/>
+        <typeAlias alias="Course" type="second.entity.Course"/>
+
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/schooldb"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456789"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="second/mapper/StudentDao.xml"/>
+        <mapper resource="second/mapper/ScoreDao.xml"/>
+        <mapper resource="second/mapper/CourseDao.xml"/>
+        <mapper resource="second/mapper/ClassDao.xml"/>
+    </mappers>
+</configuration>

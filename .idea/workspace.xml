@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f341146c-4a56-4854-bb44-751a44750e5a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/second/mapper/ScoreDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+              <folding>
+                <marker date="1664442995284" expanded="true" signature="711:1125" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/second/dao/ScoreDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/second/dao/StudentDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1373#1384#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/second/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/second/mapper/ClassDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/second/mapper/StudentDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/second/entity/Clazz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+              <folding>
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/student/entity/Score.java" />
+        <option value="$PROJECT_DIR$/src/student/dao/ScoreDao.java" />
+        <option value="$PROJECT_DIR$/src/student/mapper/ScoreMapper" />
+        <option value="$PROJECT_DIR$/src/student/mapper/ClassMapper" />
+        <option value="$PROJECT_DIR$/src/student/dao/ClassDao.java" />
+        <option value="$PROJECT_DIR$/src/student/mapper/ClassMapper.xml" />
+        <option value="$PROJECT_DIR$/src/student/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/student/mapper/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/Test/student/dao/StudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/student/mapper/ScoreMapper.xml" />
+        <option value="$PROJECT_DIR$/src/pkg/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/pkg/mapper/StudentDaoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/pkg/dao/ScoreDao.java" />
+        <option value="$PROJECT_DIR$/src/pkg/mapper/ScoreMapper.xml" />
+        <option value="$PROJECT_DIR$/src/pkg/mapper/CourseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/pkg/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/pkg/mapper/ClassMapper.xml" />
+        <option value="$PROJECT_DIR$/src/pkg/dao/ClassDao.java" />
+        <option value="$PROJECT_DIR$/Test/pkg/dao/StudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/pkg/entity/Husband.java" />
+        <option value="$PROJECT_DIR$/src/pkg/entity/Wife.java" />
+        <option value="$PROJECT_DIR$/src/pkg/mapper/HusbandDao.xml" />
+        <option value="$PROJECT_DIR$/src/cn/second/entity/Husband.java" />
+        <option value="$PROJECT_DIR$/src/cn/second/entity/Wife.java" />
+        <option value="$PROJECT_DIR$/src/cn/second/dao/HusbandDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/second/dao/HusbandDao.xml" />
+        <option value="$PROJECT_DIR$/Test/cn/second/dao/HusbandDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/second/entity/Husband.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/HusbandDao.xml" />
+        <option value="$PROJECT_DIR$/src/second/entity/Wife.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/WifeDao.xml" />
+        <option value="$PROJECT_DIR$/src/second/dao/WifeDao.java" />
+        <option value="$PROJECT_DIR$/Test/second/dao/HusbandDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/second/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/second/mapper/ClassDao.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/second/mapper/CourseDao.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/499cd91c-ee3f-4ea7-b122-2e298ae64cff/console.sql" />
+        <option value="$PROJECT_DIR$/src/second/entity/Class.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/ClassDao.java" />
+        <option value="$PROJECT_DIR$/src/second/mapper/ClassDao.xml" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/second/entity/Clazz.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/second/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/second/entity/Score.java" />
+        <option value="$PROJECT_DIR$/src/second/mapper/StudentDao.xml" />
+        <option value="$PROJECT_DIR$/Test/second/dao/StudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/second/dao/ScoreDao.java" />
+        <option value="$PROJECT_DIR$/src/second/mapper/ScoreDao.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1360" />
+    <option name="y" value="130" />
+    <option name="width" value="1790" />
+    <option name="height" value="1275" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDMyBatisProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDMyBatisProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="second.dao" />
+      <recent name="cn.second.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="second" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\CRUDMyBatisProject\src\second\mapper" />
+      <recent name="D:\Projects\CRUDMyBatisProject\src\cn\second\dao" />
+      <recent name="D:\Projects\CRUDMyBatisProject\src\cn\second" />
+      <recent name="D:\Projects\CRUDMyBatisProject\lib" />
+      <recent name="D:\Projects\CRUDMyBatisProject\src\student\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentDaoTest.findAllScore">
+    <configuration name="StudentDaoTest.findAllClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDMyBatisProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="second.dao" />
+      <option name="MAIN_CLASS_NAME" value="second.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="findAllClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.findAllCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDMyBatisProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="second.dao" />
+      <option name="MAIN_CLASS_NAME" value="second.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="findAllCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.findAllSc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDMyBatisProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="second.dao" />
+      <option name="MAIN_CLASS_NAME" value="second.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="findAllSc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.findAllScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDMyBatisProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="second.dao" />
+      <option name="MAIN_CLASS_NAME" value="second.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="findAllScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.studentFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDMyBatisProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="second.dao" />
+      <option name="MAIN_CLASS_NAME" value="second.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="studentFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentDaoTest.findAllScore" />
+        <item itemvalue="JUnit.StudentDaoTest.findAllCourse" />
+        <item itemvalue="JUnit.StudentDaoTest.studentFindAll" />
+        <item itemvalue="JUnit.StudentDaoTest.findAllSc" />
+        <item itemvalue="JUnit.StudentDaoTest.findAllClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f341146c-4a56-4854-bb44-751a44750e5a" name="Default Changelist" comment="" />
+      <created>1663668567905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663668567905</updated>
+      <workItem from="1663668571892" duration="2088000" />
+      <workItem from="1663671700809" duration="493000" />
+      <workItem from="1663714322478" duration="4189000" />
+      <workItem from="1663749549368" duration="6130000" />
+      <workItem from="1663759547400" duration="1658000" />
+      <workItem from="1663820677925" duration="17410000" />
+      <workItem from="1663901448448" duration="1251000" />
+      <workItem from="1663991383217" duration="628000" />
+      <workItem from="1664004552456" duration="1293000" />
+      <workItem from="1664093200144" duration="6799000" />
+      <workItem from="1664105741142" duration="12045000" />
+      <workItem from="1664173370640" duration="9655000" />
+      <workItem from="1664257285375" duration="18370000" />
+      <workItem from="1664285244690" duration="1654000" />
+      <workItem from="1664413962052" duration="11353000" />
+      <workItem from="1664435629146" duration="2810000" />
+      <workItem from="1664438595193" duration="5719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StudentDaoTest_findAllSc - 2022.09.29 at 17h 02m 45s.xml">
+      <configuration name="StudentDaoTest.findAllSc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 04m 07s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 05m 53s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 06m 49s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllCourse - 2022.09.29 at 17h 09m 22s.xml">
+      <configuration name="StudentDaoTest.findAllCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 09m 43s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_studentFindAll - 2022.09.29 at 17h 12m 41s.xml">
+      <configuration name="StudentDaoTest.studentFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllCourse - 2022.09.29 at 17h 13m 00s.xml">
+      <configuration name="StudentDaoTest.findAllCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 15m 59s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest_findAllScore - 2022.09.29 at 17h 16m 47s.xml">
+      <configuration name="StudentDaoTest.findAllScore" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103545000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.16680162" />
+      <window_info id="Structure" order="1" sideWeight="0.5012531" side_tool="true" weight="0.16194332" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21890548" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3283582" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.35157546" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32955465" />
+      <window_info anchor="right" x="0" y="0" width="273" height="533" id="Documentation" order="9" side_tool="true" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3283582" />
+      <window_info anchor="bottom" id="Database Console" order="14" visible="true" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32955465" />
+      <window_info anchor="right" x="0" y="0" width="273" height="533" id="Documentation" order="9" side_tool="true" weight="0.32955465" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/student/dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/student/dao/StudentDaoMapper.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/student/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/student/dao/ggg.xsl" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/entity/Score.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/entity/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/entity/Course.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/mapper/StudentDaoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/dao/ScoreDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/mapper/CourseMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/dao/CourseDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/dao/ClassDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/mapper/ScoreMapper.xml" />
+    <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.5.4.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/Utils/MybatisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pkg/dao/StudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/mapper/ClassMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/second/dao/HusbandDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Husband.java" />
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Wife.java" />
+    <entry file="file://$PROJECT_DIR$/src/pkg/entity/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/ClassDao.xml.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/second/dao/WifeDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/WifeDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/HusbandDao.xml" />
+    <entry file="file://$PROJECT_DIR$/Test/second/dao/HusbandDaoTest.java" />
+    <entry file="file://$PROJECT_DIR$/Test/pkg/dao/StudentDaoTest.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/499cd91c-ee3f-4ea7-b122-2e298ae64cff/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.14/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#10225#10226#0" expanded="true" />
+            <element signature="e#10308#10309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.14/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="152" column="19" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/dao/ClassDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/CourseDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Clazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/ClassDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/second/dao/StudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1373#1384#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/dao/ScoreDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/ScoreDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+          <folding>
+            <marker date="1664442995284" expanded="true" signature="711:1125" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/second/mapper/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

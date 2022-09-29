@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="second.dao.ScoreDao">
+    <resultMap id="scoreRMap" type="second.entity.Score">
+        <result property="uScore" column="Uscore"/>
+        <result property="endScore" column="EndScore"/>
+        <association property="student"   javaType="second.entity.Student">
+            <id property="id" column="id"/>
+            <result property="Sno" column="sno"/>
+            <result property="Sname" column="Sname"/>
+            <result property="Sex" column="Sex"/>
+            <result property="Birth" column="Birth"/>
+            <association property="clazz" column="Class_id" javaType="second.entity.Clazz">
+                <id property="id" column="id"/>
+                <result property="className" column="className"/>
+                <result property="college" column="college"/>
+                <result property="specialty" column="specialty"/>
+                <result property="EnterYear" column="EnterYear"/>
+            </association>
+        </association>
+        <association property="course" javaType="second.entity.Course">
+            <id property="id" column="id"/>
+            <result property="Cname" column="Cname"/>
+            <result property="Credit" column="Credit"/>
+            <result property="ClassHour" column="ClassHour"/>
+        </association>
+    </resultMap>
+    <select id="findAllScore" resultMap="scoreRMap" >
+        select
+            sc.Uscore,
+            sc.EndScore,
+            std.Birth,
+            std.id,
+            std.Sno,
+            std.Sname,
+            std.sex,
+            cl.id,
+            cl.className,
+            cl.college,
+            cl.specialty,
+            cl.EnterYear,
+            c.id,
+            c.Cname,
+            c.Credit,
+            c.ClassHour
+        from
+            score as sc
+        join
+            student as std on std.id = sc.stu_id
+        join
+            class as cl on cl.id = std.id
+        join
+            course as c on c.id= sc.stu_id;
+    </select>
+
+</mapper>

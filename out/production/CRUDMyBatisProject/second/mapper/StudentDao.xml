@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="second.dao.StudentDao">
+
+    <resultMap id="studentRMap" type="second.entity.Student">
+        <id property="id" column="id"/>
+        <result property="Sno" column="Sno"/>
+        <result property="Sname" column="Sname"/>
+        <result property="Sex" column="Sex"/>
+        <result property="Birth" column="Birth"/>
+        <association property="clazz"  javaType="second.entity.Clazz">
+            <id property="id" column="id"/>
+            <result property="className" column="className"/>
+            <result property="college" column="college"/>
+            <result property="specialty" column="specialty"/>
+            <result property="EnterYear" column="EnterYear"/>
+        </association>
+    </resultMap>
+
+    <select id="findOne" resultMap="studentRMap" >
+        select
+            s.id,
+            s.Sno,
+            s.Sname,
+            s.Sex,
+            s.Birth,
+            c.id,
+            c.className,
+            c.college,
+            c.specialty,
+            c.EnterYear
+        from
+            student as s
+        join
+            class as c;
+    </select>
+
+
+</mapper>
